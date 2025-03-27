@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Week 2 Assignment</title>
+</head>
+<body>
+    <h1>The Marqies Hotel</h1>
+    <h3><i>Creating memorable stays with personalised services</i><h3>
+    <p>Discover the epitome of luxury and functionality at The Marqies Hotel, where excellence meets convenience. Nestled in the heart of Bondo, this premier establishment offers discerning guests an unparalleled experience in high standard accommodations and state-of-the-art conference facilities. Whether you’re seeking a retreat of relaxation or a venue to host impactful business gatherings. The Marqies Hotel exceeds expectations with its meticulously designed rooms, attentive service, and versatile conference halls equipped with cutting-edge technology. Elevate your stay and events with us, where every detail is crafted to ensure your comfort and success.</p> <br>
+
+    <h2>Our Branches</h2>
+    <ol type="i">
+        <li>Westlands Park Gardens</li>
+        <li>Lambwe Ridge Hacienda</li>
+        <li>Thika Road Towers</li>
+        <li>Marqies HQ Hotels</li>
+        <li>The Marqies Sandy Beach Kisumu</li>
+    </ol><br>
+    <h2>Our Services</h2>
+    <ul>
+        <li>Conference and Events</li>
+        <li>Suitees and Rooms</li>
+        <li>Restaurants and Bars</li>
+        <li>Spa and Fitness</li>
+        <li>Weddings and Celebrations</li>
+        <li>Launges </li>
+    </ul><br>
+
+    <h2>Our Gallery</h2>
+    <img src="https://images.pexels.com/photos/14501973/pexels-photo-14501973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Our conference Room" width="500" height="300"><br>
+<!--Add a table of 5 contacts with; name, address, mobile and emails-->
+    <table border="1">  
+        <thead>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brian Opiyo</td>
+                <td>112, Bondo</td>
+                <td>0712345678</td>
+                <td>opiyo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Collins Simiyu</td>
+                <td>132, Nyeri</td>
+                <td>0721345678</td>
+                <td>simiyu@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Salim Halima</td>
+                <td>221, Garissa</td>
+                <td>0712345689</td>
+                <td>salim@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Wanyama</td>
+                <td>675, Bungoma</td>
+                <td>0712101010</td>
+                <td>wanyama@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily Mwende</td>
+                <td>323, Machakos</td>
+                <td>0712123678</td>
+                <td>mwenda@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--Add a registration form-->
+<!--Name, email, password, and date fields.-->
+
+    <h2>Get to us us</h2>
+    <form action="opiyobrian2017@gmail.com" method="post">
+        <!--Name and email-->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Jane Doe" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required><br>
+        
+        <!--Radio button-->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required selected>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br>
+
+        <!--select-->
+        <label for="Nationality">Nationality:</label><br>
+        <select id="nationality" name="nationality" required>
+            <option value="select your Nationality" selected>Select your nationality</option>
+            <option value="kenya">Kenyan</option>
+            <option value="uganda">Ugandan</option>
+            <option value="tanzania">Tanzanian</option>
+            <option value="rwanda">Rwandan</option>
+            <option value="south-sudan">South Sudanese</option>
+        </select><br>
+
+        <!--Date-->
+        <label for="date"><b>Enquiry date:</b></label><br>
+        <input type="date" id="date" name="date" required><br>
+
+        <!--Checkbox-->
+        <label><b>Type of Enquiry:</b></label><br>
+        <input type="checkbox" id="rooms" name="enquiry" value="rooms">
+        <label for="rooms">Rooms and Suites</label><br>
+        <input type="checkbox" id="conference" name="enquiry" value="conference">
+        <label for="conference">Conference and Events</label><br>
+        <input type="checkbox" id="dining" name="enquiry" value="dining">
+        <label for="dining">Dining and Restaurants</label><br>
+        <input type="checkbox" id="spa" name="enquiry" value="spa">
+        <label for="spa">Spa and Fitness</label><br>
+        <input type="checkbox" id="weddings" name="enquiry" value="weddings">
+        <label for="weddings">Weddings and Celebrations</label><br>
+
+        <!--textarea-->
+        <h3>Enquiry</h3>
+        <textarea name="enquiry" id="enquiry" cols="30" rows="5" placeholder="What are the room charges per night"></textarea><br><br>
+
+        <!--Password-->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        
+        <!--Submit button-->
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
